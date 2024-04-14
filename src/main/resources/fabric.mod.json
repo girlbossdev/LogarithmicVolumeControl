@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "logarithmic-volume-control",
+  "version": "${version}",
+  "name": "Logarithmic Volume Control",
+  "description": "Fixes the volume sliders to work on a logarithmic scale",
+  "authors": [
+    "girlbossdev"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/logarithmic-volume-control",
+    "sources": "https://github.com/girlbossdev/LogarithmicVolumeControl"
+  },
+  "license": "MIT",
+  "icon": "assets/logarithmic-volume-control/icon.png",
+  "environment": "client",
+  "mixins": [
+    "logarithmic-volume-control.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.9",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
