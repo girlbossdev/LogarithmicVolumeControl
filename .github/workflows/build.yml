@@ -10,11 +10,8 @@ jobs:
   build:
     strategy:
       matrix:
-        # Use these Java versions
-        java: [
-          17,    # Current Java LTS & minimum supported by Minecraft
-          21,    # Current Java LTS
-        ]
+        # Versions of the JDK that we should use to build the mod.
+        java: [ 21 ]
     runs-on: ubuntu-22.04
     steps:
       - name: checkout repository
