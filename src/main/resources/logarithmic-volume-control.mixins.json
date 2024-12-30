@@ -1,13 +1,14 @@
 {
   "required": true,
   "package": "dev.girlboss.volumefix.mixins",
-  "compatibilityLevel": "JAVA_8",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
   "injectors": {
     "defaultRequire": 1
   },
   "client": [
-    "ListenerMixin",
-    "SourceMixin",
-    "PositionedSoundInstanceMixin"
+    "GameOptionsMixin",
+    "SoundManagerMixin"
   ]
 }
