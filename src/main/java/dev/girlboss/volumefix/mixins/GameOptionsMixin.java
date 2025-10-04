@@ -14,7 +14,7 @@ public abstract class GameOptionsMixin {
     @Shadow public abstract SimpleOption<Double> getSoundVolumeOption(SoundCategory category);
 
     @Inject(
-            method = "getSoundVolume",
+            method = "getCategorySoundVolume",
             at = @At("HEAD"),
             cancellable = true
     )
